@@ -1,0 +1,13 @@
+
+# Local Netlify folder
+.netlify
+
+# Generated public files
+dist/
+
+# Generated files inside submission source projects
+source-projects/**/node_modules/
+source-projects/**/dist/
+source-projects/**/.vite/
+source-projects/**/coverage/
+source-projects/**/*.tsbuildinfo
